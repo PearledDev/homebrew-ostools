@@ -7,7 +7,7 @@ class Hexhsl < Formula
 
   on_macos do
     url "https://github.com/PearledDev/hexhsl/releases/download/v0.1.1/hexhsl-macos"
-    sha256 "1c34b090e237aa04c64289d134f4605024bb4497d4d7b18a56b22ddf4f544e43"
+    sha256 "329efbbe663536b9055724127fbc3befd58b90586e4e7e0d0dac516c9e5d35b5"
 
     def install
       bin.install "hexhsl-macos" => "hexhsl"
@@ -17,7 +17,7 @@ class Hexhsl < Formula
 
   on_linux do
     url "https://github.com/PearledDev/hexhsl/releases/download/v0.1.1/hexhsl-linux"
-    sha256 "c9891135dd471f0a0e3a49991fb932f102c65bee3aef152b1f94dba40da8f792"
+    sha256 "6dc8432c20c0411f1b07e03b803e933db73ecea209b623834a0e8e8b580e70bb"
 
     def install
       bin.install "hexhsl-linux" => "hexhsl"
