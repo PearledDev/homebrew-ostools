@@ -5,8 +5,6 @@ class Hexhsl < Formula
   license "MIT"
   head "https://github.com/Pearled/hexhsl.git", branch: "main"
 
-  author "Pearled"
-
   on_macos do
     url "https://github.com/PearledDev/hexhsl/releases/download/v0.1.1/hexhsl-macos"
     sha256 "1c34b090e237aa04c64289d134f4605024bb4497d4d7b18a56b22ddf4f544e43"
