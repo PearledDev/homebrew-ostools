@@ -5,7 +5,6 @@
 class Hexhsl < Formula
   desc "Convert between common color formats from the command-line"
   homepage "https://github.com/PearledDev/hexhsl"
-  version "0.2.0"
   license "MIT"
   head "https://github.com/PearledDev/hexhsl.git", branch: "main"
 
