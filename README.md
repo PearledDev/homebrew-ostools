@@ -6,7 +6,16 @@ Welcome to Pearled's Homebrew Tap for open source tools! This repository will co
 
 ### hexhsl
 
-`hexhsl` is a simple CLI tool to convert hex color codes to HSL. Useful for web development.
+`hexhsl` converts between HEX, RGB, HSL, HSV/HSB, HWB, and CMYK. It accepts
+common CSS colour syntax, preserves alpha values, and can print one format or
+all of them at once.
+
+```sh
+hexhsl "hsl(210 50% 40%)" --to hex
+#336699
+
+hexhsl rebeccapurple --all
+```
 
 ## How to Add the Tap
 
